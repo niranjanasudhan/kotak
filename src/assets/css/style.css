@@ -1,0 +1,158 @@
+body {
+    background-color: #f7f7f7 !important;
+}
+
+.bg-light {
+    background-color: #da3c3b !important;
+    height: 280px !important;
+    border-radius: 10%;
+    margin-top: -50px;
+}
+
+.navbar-brand {
+    margin-top: -50px !important;
+}
+
+.form-inline {
+    margin-top: -60px !important;
+}
+
+.main_logo {
+    height: 120px;
+    width: 250px;
+}
+
+.search {
+    border-radius: 15px;
+}
+
+.main_profile {
+    border-radius: 50%;
+    /* height: 76px;
+    width: 91px; */
+    height: 62px;
+    width: 70px;
+    margin: 25px;
+}
+
+.main_profile1 {
+    border-radius: 50%;
+    /* height: 76px;
+    width: 91px; */
+    height: 135px;
+    width: 160px;
+    margin: 25px;
+}
+
+.main-heading {
+    margin-top: -80px;
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff !important;
+}
+
+.main-heading2 {
+    margin-left: 30px;
+    margin-right: 30px;
+    background-color: #fff !important;
+}
+
+.head-section1,
+.head-section2 {
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+.head-section2 {
+    /* max-width: 60% !important; */
+    max-width: 69% !important;
+}
+
+.head_br {
+    font-size: 20px;
+}
+
+.head_br1 {
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.sub_br {
+    font-size: 18px;
+}
+
+.head_br_sub {
+    text-align: center;
+}
+
+.head-section3 {
+    text-align: center;
+    background-color: #fff;
+    padding: 10px;
+    margin: 20px;
+    box-shadow: 1px 1px 1px lightgrey;
+}
+
+.main_list {
+    text-align: left;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.dark1 {
+    float: right;
+    margin-top: -2px;
+}
+
+.li-list {
+    display: none;
+}
+
+.li-list a {
+    color: #000 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.main_list a {
+    color: #000 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 600px) {
+    .head-section3 {
+        display: none;
+    }
+    .head-section2 {
+        max-width: 90% !important;
+    }
+    .dark1 {
+        margin-top: 10px;
+    }
+    .head-section1 {
+        margin-top: 40px;
+    }
+    .li-list {
+        display: block;
+        background-color: white;
+        padding: 10px;
+        font-size: 18px;
+        font-weight: bold;
+        /* margin-top: 50px; */
+        z-index: 90;
+    }
+    .li-list ul {
+        margin: 10px;
+        padding: 10px;
+        list-style-type: none;
+    }
+    .li-list li {
+        margin: 10px;
+        padding: 10px;
+        text-align: center;
+        border-bottom: 1px solid gray;
+    }
+}
